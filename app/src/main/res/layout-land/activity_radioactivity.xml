@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".radioactivity">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="85dp" >
+
+    </RadioGroup>
+
+    <RadioButton
+        android:id="@+id/moneky"
+        android:checked="true"
+        android:layout_width="406dp"
+        android:layout_height="49dp"
+        android:text="Monkey"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+    <RadioButton
+        android:id="@+id/rhino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rhino"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="85dp" />
+
+    <RadioButton
+        android:id="@+id/tiger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tiger"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="258dp"
+        android:layout_height="196dp"
+        android:layout_marginStart="76dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.564"
+        app:srcCompat="@drawable/monkey" />
+</androidx.constraintlayout.widget.ConstraintLayout>

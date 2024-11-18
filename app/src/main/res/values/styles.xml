@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Custom hint style for TextInputLayout -->
+    <style name="TextHintAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#FF0000</item> <!-- Red color for hint -->
+        <item name="android:textSize">14sp</item>     <!-- Size of the hint text -->
+    </style>
+</resources>
