@@ -166,9 +166,12 @@
         android:fontFamily="sans-serif-medium"
         android:padding="12dp"
         android:text="SIGN UP"
+        android:textSize="15sp"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/passwordLayout" />
+        app:layout_constraintTop_toBottomOf="@id/passwordLayout"
+        app:backgroundTint="@null"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
