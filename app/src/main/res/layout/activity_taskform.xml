@@ -62,7 +62,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        app:boxStrokeColor="#FF0000"
+        app:boxStrokeColor="#F44336"
         android:layout_marginLeft="36dp"
         app:hintTextAppearance="@style/TextHintAppearance"
         app:layout_constraintEnd_toEndOf="parent"
